@@ -1,0 +1,93 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    background-image: url('wotlk2img.jpg');
+}
+.cbcenter{
+    height: 15px;
+    width: 100%;
+    background-image: url('cb_center.jpg');
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 127px);
+}
+.trepeat{
+    height: 55px;
+    width: 100%;
+    background-image: url('TRepeat.jpg');
+}
+.titleone{
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    background-image:linear-gradient( #ff9900, #ff4000, #ff9900 );
+    height: 120px;
+    width: 350px;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+    border: 3px solid wheat;
+}
+.leftcolumn{
+    height: 200px;
+    width: 15px;
+    background-image: url('c_right.jpg');
+}
+.rightcolumn{
+    height: 200px;
+    width: 15px;
+    background-image: url('c_right.jpg');
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    top:25px;
+}
+.something{
+    position: absolute;
+    top: 35px;
+    left: 450px;
+    height: 250px;
+    width: 250px;
+    color: wheat;
+    font-size: 1.3em;
+}
+.righttext{
+    position: absolute;
+    top: 35px;
+    right: 55px;
+    height: 250px;
+    
+    
+}
+.righttext ul li{
+    font-size: 1.5em;
+    color: wheat;
+    display: inline-block;
+}
+.Main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainleft{
+    
+    width: 33%;
+}
+.mainmid{
+    width: 33%;
+}
+.mainright{
+    width: 33%;
+}
